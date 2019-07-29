@@ -54,12 +54,6 @@ h6{
     font-weight: bold;
     color: greenyellow;
 }
-h7{
-    font-size: 25px;
-    font-family: 'Arial', Times, serif;
-    font-weight: bold;
-    color: greenyellow;
-}
     
 .contenedor{
     width: 146;
@@ -72,53 +66,4 @@ h7{
     display: block;
     margin: auto;
     border: 1px solid #a50e0e;
-}
-#LGuilln{
-    background: #f5eeee;
-    width: 50%;
-    font-family: 'Times New Roman', Times, serif;
-    color: #f5eeee;
-    display: block;
-    margin: auto;
-    border: 1px solid #a50e0e;
-    background-image: "FinesseGrande.png";
-}
-h1{
-    font-size: 30px;
-    font-family: Arial;
-    font-weight: bold;
-}
-
-
-h2{
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
-}
-
-
-h3{
-    font-size: 25px;
-    font-family: Arial;
-    font-weight: bold;
-}
-
-.contenedor{
-    width: 80%;
-    display: block;
-    margin: auto;
-    border: 1px solid #9999;
-}
-
-.contenedor2{
-    width: 20%;
-    display: inline-block;
-    margin: auto;
-    border: 1px solid #9999;
-    padding: 5px;
-}
-
-
-input{
-    width: 70%;
 }
