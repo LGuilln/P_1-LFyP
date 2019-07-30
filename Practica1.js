@@ -26,9 +26,7 @@ function analizar(){
     var contLetras = 0;
     var contSimbolo = 0;
 
-   // var cadena;
- //   cadena = document.getElementById("No.1").value.toString();
- console.log(cadena2)
+    console.log(cadena2)
     for(var i = 0; i < cadena2.length; i++){
         if(cadena2.charCodeAt(i)>= 65 && cadena2.charCodeAt(i) <= 90 || cadena2.charCodeAt(i)>=97 && cadena2.charCodeAt(i) <= 122){
             
@@ -46,11 +44,7 @@ function analizar(){
     console.log(contLetras+"===>num"+contNum+">>>>>>>>>>>"+contSimbolo+"size"+cadena2.length)
     if((contNum)==cadena2.length){
         console.log("NUMERO")
-        /*var ele = document.getElementById("his");
-        ele.innerHTML =  "Numero";
-
-        ele.innerHTML = ele.innerHTML+cadena2;*/
-        var numero = "Numeros";
+        var numero = "Números";
         document.getElementById("tbl").insertRow(-1).innerHTML = '<tr><td></td><td>'+cadena2+'</td><td>'+numero+'</td><td></td></tr>';
         alert("Numeros")
     }else if((contLetras)==cadena2.length){
@@ -58,13 +52,11 @@ function analizar(){
         var letra = "Letras";
         document.getElementById("tbl").insertRow(-1).innerHTML = '<tr><td></td><td>'+cadena2+'</td><td>'+letra+'</td><td></td></tr>';
         alert("Letras")
-        //   document.getElementById("his").innerHTML("Letras");
     }else if((contSimbolo)==cadena2.length){
         console.log("SIMBOLO")
         var simbolo = "Letras";
         document.getElementById("tbl").insertRow(-1).innerHTML = '<tr><td></td><td>'+cadena2+'</td><td>'+simbolo+'</td><td></td></tr>';
         alert("Simbolo")
-        // document.getElementById("his").innerHTML("Simbolos");
     }else{
         console.log("ERROR")
         var error = "Error";
